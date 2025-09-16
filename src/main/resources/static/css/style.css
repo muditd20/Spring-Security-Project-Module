@@ -1,0 +1,12 @@
+body{
+	background: #e2e2e2;
+}
+
+.bg-primary{
+	background: #009688 !important;
+}
+
+.my-card{
+	padding: 20px;
+	background: #FFFFFF;
+}
