@@ -59,7 +59,7 @@ public class HomeController {
 	@RequestMapping(value="/do_register", method = RequestMethod.POST)
 	public String registerUser(@ModelAttribute("user") User user,Model model)
 	{
-		user.setRole("Role_user");
+		user.setRole("ROLE_USER");
 		user.setEnabled(true);
 		user.setPassword(passwordEncoder.encode(user.getPassword()));
 		User result = userRepository.save(user);
